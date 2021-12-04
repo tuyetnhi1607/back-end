@@ -11,7 +11,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const corsOptions ={
-    origin:'https://tuyetnhi1607-cms-website.herokuapp.com/', 
+    origin:'*', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200,
  }
