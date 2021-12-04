@@ -23,6 +23,6 @@ app.use('/api/v1/auth', authRoute);
 app.use('/api/v1/post', postRoute);
 
 
-app.listen(process.env.PORT || 5000, ()=>{
+app.listen(process.env.PORT || 5000,'0.0.0.0', ()=>{
     console.log(`Server is kgkdngk ${process.env.PORT}`);
 })
